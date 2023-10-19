@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: normal small-caps normal 14px/200% Georgia, Helvetica, sans-serif;
+}
+.structural{
+    margin: 10px;
+    padding: 10px
+}
+h1{
+    font-size: large;
+    color: rgb(255, 0, 195);
+}
+h2{
+    font-size: medium;
+    color:rgb(220, 12, 220);
+}
+main {
+    height: 70vh;
+}
+
+img{
+    border: 3px solid rgb(134, 2, 99);
+    width: 90%;
+    height: 80%;
+}
+figure{
+    background-color: rgb(32, 3, 177);
+    height: 60%;
+    width: 45%;
+    margin: auto;
+    padding: 10px;
+}
+
+#cat1{
+    float: left;
+}
+#cats2{
+    float:right;
+}
+section{
+    clear: both;
+}
+figcaption{
+    font-weight:bold;
+    font-size: medium;
+    color: rgb(111, 4, 40);
+    padding: 5px;
+}
+section{
+    padding: 5px;
+}
+ul > li{
+    list-style-type: square;
+    line-height: 30px;
+}
+ul >li> a{
+    
+    color: rgb(180, 22, 22);
+    
+}
+a:hover{
+    color: rgb(71, 15, 239);
+}
+header, footer {
+    background-color: rgb(97, 76, 51);
+}
